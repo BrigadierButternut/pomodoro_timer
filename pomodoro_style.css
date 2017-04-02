@@ -2,11 +2,23 @@ body{
   background-color:#248c41;
 }
 
+.textExpo{
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1{
+  font-size: 80px;
+}
+
 .wrapper {
   margin: auto;
   position: relative;
   width: 25%;
-  padding-top: 150px
+  padding-top: 40px
 }
 
 .tomato {

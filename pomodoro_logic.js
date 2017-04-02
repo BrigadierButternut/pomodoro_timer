@@ -1,7 +1,7 @@
 function pomodoro(textTimer) {
   //Setting working period (25 minutes = 1500 seconds) and break period (5 minutes = 300 seconds)
-  var workPeriod = 5;
-  var breakPeriod = 10;
+  var workPeriod = 1500;
+  var breakPeriod = 300;
 
   countDown(workPeriod, textTimer).then(function() {
     confirm("Time for a break!")
