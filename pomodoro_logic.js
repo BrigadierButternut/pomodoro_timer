@@ -37,6 +37,8 @@ function countDown(timeTotal, textTimer) {
         timeTotal--;
 
         if (timeTotal < 0) {
+          var ring = document.getElementById("alarm");
+          ring.play();
           clearInterval(timer);
           resolve();
         }
