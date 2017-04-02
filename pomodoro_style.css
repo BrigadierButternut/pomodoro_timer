@@ -1,8 +1,12 @@
+body{
+  background-color:#248c41;
+}
+
 .wrapper {
   margin: auto;
   position: relative;
   width: 25%;
-  padding-top: 100px
+  padding-top: 150px
 }
 
 .tomato {
@@ -11,9 +15,15 @@
   height: 0;
   padding-bottom: 100%;
   border-radius: 50%;
-  border: 2px solid red;
+
   overflow: hidden;
   background: red;
+}
+
+button:hover{
+  cursor:pointer;
+  cursor: hand;
+  background: #ef2823;
 }
 
 button {
